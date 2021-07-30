@@ -1,0 +1,60 @@
+! Disable Perl extensions for performance and security
+URxvt.perl-ext:
+URxvt.perl-ext-common:
+
+! Fonts
+URxvt.font:xft:Source Code Pro:style=Regular:size=14
+URxvt.boldFont:xft:Source Code Pro:style=Bold:style=Bold:size=14
+URxvt.italicFont:xft:Source Code Pro:style=Italic:style=Italic:size=14
+URxvt.boldItalicFont:xft:Source Code Pro:style=Bold Italic:style=Bold Italic:size=14
+
+!URxvt configs
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 112x34 
+URxvt.internalBorder: 24 
+URxvt.cursorBlink: false
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+
+! Colors
+
+! special
+*.foreground:   #e6d4a3
+*.background:   #1e1e1e
+*.cursorColor:  #e6d4a3
+
+! black
+*.color0:       #1e1e1e
+*.color8:       #7f7061
+
+! red
+*.color1:       #be0f17
+*.color9:       #f73028
+
+! green
+*.color2:       #868715
+*.color10:      #aab01e
+
+! yellow
+*.color3:       #cc881a
+*.color11:      #f7b125
+
+! blue
+*.color4:       #377375
+*.color12:      #719586
+
+! magenta
+*.color5:       #a04b73
+*.color13:      #c77089
+
+! cyan
+*.color6:       #578e57
+*.color14:      #7db669
+
+! white
+*.color7:       #978771
+*.color15:      #e6d4a3
+
