@@ -1,3 +1,5 @@
+xrdb -merge .Xresources
+
 # Vcs info
 autoload -Uz vcs_info
 function precmd() {
@@ -29,7 +31,7 @@ SAVEHIST=1000
 setopt SHARE_HISTORY
 setopt PROMPT_SUBST
 
-PROMPT='%F{135}%n%f in %F{76}%2~%f %F{78}${vcs_info_msg_0_}%f%B%F{208}λ%f%b '
+PROMPT='%F{135}%n%f@%F{166}%m%f in %F{76}%2~%f %F{78}${vcs_info_msg_0_}%f%B%F{208}λ%f%b '
 
 # Aliases
 
