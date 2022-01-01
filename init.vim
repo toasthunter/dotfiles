@@ -20,6 +20,7 @@ Plug 'mhinz/vim-startify'
 Plug 'cespare/vim-toml'
 Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
+Plug 'myusuf3/numbers.vim'
 
 call plug#end()
 
